@@ -1,0 +1,272 @@
+body  {
+   margin: 0;
+         font-family: 'Montserrat', sans-serif;
+         font-size: 15pt;
+         line-height: 1.6;
+         color: #333;
+
+}
+
+*,
+*:before,
+*:after {
+   box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+        margin: 0;
+}
+
+/*Container*/
+   .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+   }
+
+/*Intro*/
+
+.intro {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 100%;
+   height: 100vh;
+   background: url("../images/bg.jpg") center no-repeat;
+   -webkit-background-size: cover;
+   background-size:cover;
+
+}
+
+.intro__inner {
+   width: 100%;
+   max-width: 880px ;
+   margin: 0 auto;
+   text-align: center;
+}
+
+.intro__title {
+   font-size: 120px;
+   font-weight: 700;
+   text-transform: uppercase;
+   text-align: center;
+   color:white ;
+   line-height: 1;
+   -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: black;
+}
+.intro__title:after {
+   content: "";
+   display: block;
+   height: 3px;
+   width: 60px;
+   background-color: #fff;
+   margin: 30px auto 30px ;
+
+}
+
+
+.intro__suptitle {
+   margin-bottom: 10px;
+   font-size: 60px;
+   color:white;
+   font-family: Kaushan Script, cursive;
+   text-align: center;
+   -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: black;
+}
+
+
+
+
+/* button */
+.btn {
+   display: inline-block;
+   vertical-align: top;
+   margin-bottom: 60px ;
+   border: white 3px solid;
+   padding: 8px 30px;
+   color: #fff;
+   text-transform: uppercase;
+   font-size: 14px;
+   font-weight: 700;
+   text-decoration: none;
+   transition: linear .2s background, color .1s linear;
+}
+
+.btn:hover {
+   color: #333 ;
+   background-color: white;
+}
+
+
+
+/*Slider*/
+.slider {
+   position: absolute;
+   bottom: 0%;
+   left: 0;
+   z-index: 1;
+   width: 100% ;
+}
+
+.slider__inner {
+   display: flex;
+   justify-content: space-between;
+}
+
+.slider__item {
+   width: 24% ;
+   padding: 20px 0;
+   border-top:3px solid white;
+   position: relative;
+   font-size: 18px;
+   color: white;
+   text-transform: uppercase;
+   opacity: 0.7;
+}
+ 
+  table {
+     text-align: center;
+     margin-left: 32%;
+  }
+
+
+.slider__num {
+   font-size: 24px;
+   font-weight: 700;
+}
+
+
+/* Section */
+
+.section {
+   padding:80px 0;
+}
+
+.section--devices {
+   background: url("../images/bg2.jpg");
+   -webkit-background-size:cover;
+   background-size: cover;
+   padding-bottom: 0;
+    
+}
+
+
+.section__header {
+   margin: 0 auto 40px;
+   width: 100%;
+   max-width: 900px;
+   text-align: center;
+}
+
+
+.section__suptitle {
+   font-size: 24px;
+   color: #333;
+   font-family: 'Kaushan Script', cursive;
+}
+
+.section__title {
+   font-weight: 700;
+   text-transform: uppercase;
+   color: #333;
+   font-size: 30px;
+
+}
+
+
+
+.section__text {
+   color: rgb(100, 100, 100);
+   font-size: 27px;
+}
+
+.section__text1 {
+   color: rgb(0, 0, 0);
+   font-size: 27px;
+   text-align: center;
+}
+
+.ch__text {
+   color: rgb(0, 0, 0);
+   font-size: 47px;
+   margin-top: 20%;
+  padding-bottom: 20%;
+  text-align: center;
+}
+
+.about__item:hover .about__text {
+  opacity: 1;
+}
+
+.statistics{
+   background-color: #b3adec;
+}
+
+.stat {
+   display: flex;
+}
+
+.stat__item {
+   flex: 1 1 0;
+   text-align: center;
+
+   color: #fff;
+   padding: 70px 25px;
+}
+
+
+.stat__count {
+   font-size:40px;
+   font-weight: 700;
+
+}
+
+.stat__text {
+   text-transform: uppercase;
+   font-size: 45px;
+
+}
+
+.photo {
+   margin-left: 30%;
+}
+
+
+
+.services__title {
+   font-size: 26px;
+   text-decoration: none;
+   text-transform: uppercase;
+   color: #333;
+   margin-bottom: 10px;
+   font-weight: 700;
+}
+
+.services__text{
+   font-size: 25px;
+   color: rgb(100, 100, 100); 
+
+}
+
+.devices {
+   width: 100%;
+   max-width: 600px;
+   margin: 0 auto;
+   position: relative;
+}
+
+.devices__item {
+   display: block;
+}
+
+.devices__item--iphone {
+   position: absolute;
+   bottom: -88px;
+   right: 0;
+   z-index: 1;
+
+
+}
+
