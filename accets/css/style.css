@@ -154,9 +154,9 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .section__header {
-   margin: 0 auto 40px;
+ 
    width: 100%;
-   max-width: 900px;
+ 
    text-align: center;
 }
 
@@ -270,3 +270,21 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
+/*------------------------------------------*/
+
+
+
+.img {
+   margin-left: 36%;
+}
+
+.img:hover {
+  scale: 1.1;
+  transition: .3s;
+}
+
+.img2 {
+   margin-left: -13%;
+}
+
+.
